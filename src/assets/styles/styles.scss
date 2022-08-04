@@ -5,11 +5,11 @@
 @import "variables";
 
 // #################    Estilo Globales   #################
-@import "./Common/globals";
+@import "common/globals";
 
 // #################    Paginas   #################
-@import "Pages/home";
-@import "Pages/detailWeather";
+@import "pages/home";
+@import "pages/detailWeather";
 
 // #################    Componentes   #################
-@import "Common/header";
+@import "common/header";

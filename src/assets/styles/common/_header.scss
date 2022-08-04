@@ -1,0 +1,183 @@
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: $background_header;
+  .hamburger {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: max-content;
+    width: 95%;
+  }
+  .iconHamburger {
+    cursor: pointer;
+    position: fixed;
+    background-image: url(../../../../public/static/icon-menu.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: 20px;
+    width: 40px;
+    height: 30px;
+    left: 15px;
+    top: 20px;
+  }
+  .menuHamburger {
+    overflow-y: auto;
+    visibility: hidden;
+    position: relative;
+  }
+
+  .menuHamburger-visible {
+    visibility: visible;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.36);
+    transition: all 0.5s;
+  }
+  .boxMenu {
+    width: 300px;
+    background: $purple_color;
+    position: absolute;
+    top: 0;
+    left: -400px;
+    transition: all 0.5s;
+    border-bottom: 3px solid #121212;
+    /* box-shadow: 0 1px 3px 0 rgb(0 0 0 / 20%), 0 2px 1px -1px rgb(0 0 0 / 12%),
+        0 1px 1px 0 rgb(0 0 0 / 14%); */
+    visibility: hidden;
+  }
+  .boxMenuTitle {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    background-color: #121212;
+    padding: 0 20px;
+    margin-bottom: 20px;
+    justify-content: space-between;
+  }
+  .buttonClose {
+    background-image: url("../../../../public/static/icon-close.svg");
+    width: 20px;
+    height: 20px;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  .boxMenuTitle p {
+    font-weight: bolder;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  .boxMenuList {
+    list-style: none;
+    padding: 0 0 0 20px;
+    margin-bottom: 0;
+  }
+  .boxMenuList li {
+    height: 40px !important;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font: 400 14px Arial;
+    padding: 0 0 0 20px;
+    color: $gray;
+    margin: 0;
+    width: 250px;
+    border-bottom-color: #121212;
+    border: 2px;
+    border-bottom-style: solid;
+  }
+  .boxMenuList li:hover {
+    color: #121212;
+    font-weight: bolder;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+  .iconHamburger1 {
+    width: 40px;
+    height: 30px;
+    background: url(../../../../public/static/icon-menu.png);
+    background-size: 40px 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: none;
+  }
+  .logo1 {
+    background-image: url(https://www.telecom.com.ar/images/logos/telecom_light.svg);
+    width: 210px;
+    height: 50px;
+    background-size: 140px 50px;
+    text-indent: -9999px;
+    display: block;
+    background-repeat: no-repeat;
+    padding: 0;
+    margin: 6px;
+  }
+  .formSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .locationInput {
+    background-color: transparent;
+    border-radius: 12px;
+    //border-left: none;
+  }
+  .locationInput {
+    height: 28px;
+    width: 75%;
+    padding-left: 7px;
+  }
+  .locationInput:focus {
+    background-color: hsla(0, 0%, 100%, 0.377);
+  }
+
+  .searchInput::placeholder,
+  .locationInput::placeholder {
+    font-weight: bold;
+    color: #fff;
+  }
+  .buttonSearch {
+    background-color: $purple_color;
+    border-radius: 50%;
+    border-color: transparent;
+    align-items: center;
+    padding: 2px 4px;
+    margin: 0 7px;
+    cursor: pointer;
+  }
+  .boxMenuList {
+    list-style: none;
+    padding: 0 0 0 20px;
+    margin-bottom: 0;
+  }
+  .boxMenuList li {
+    height: 40px !important;
+    display: flex;
+    height: 40px;
+    align-items: center;
+    font: 400 14px Arial;
+    padding: 0 0 0 20px;
+    color: #000;
+    margin: 0;
+    width: 250px;
+    border-bottom-color: #008dff;
+    border: 2px;
+    border-bottom-style: solid;
+  }
+  .boxMenuList li:hover {
+    color: #008dff;
+    font-weight: bolder;
+    transition: all 0.5s;
+    cursor: pointer;
+  }
+}
+
+.footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}

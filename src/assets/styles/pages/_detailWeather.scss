@@ -1,0 +1,27 @@
+.detailWeather {
+  .btn-return {
+    background-color: transparent;
+    border: none;
+  }
+  .contentResult {
+    display: flex;
+    flex-wrap: wrap;
+    .contentResult_item {
+      display: grid;
+      .day_name {
+        color: $gray;
+      }
+      p {
+        text-align: center;
+        font-size: 20px;
+        text-transform: lowercase;
+      }
+      p:first-letter {
+        text-transform: uppercase;
+      }
+      img {
+        width: 130px;
+      }
+    }
+  }
+}

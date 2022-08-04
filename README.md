@@ -1,46 +1,52 @@
-# Getting Started with Create React App
+# Challenge Telecom Clima
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center"><a href="" target="_blank" ><img width="220" height="180"src="./public/static/Telecom_logo_2021.svg" alt="logo" style="max-width: 100%;border-radius: 10px;padding: 5px;"></a></p>
 
-## Available Scripts
+## Consignas
 
-In the project directory, you can run:
+Las tecnologías a utilizar son NodeJS, ReactJS o React Native. En el caso de preferir RN, utilizarlo de
+manera nativa (sin expo).
+La siguiente prueba plantea el desarrollo de una aplicación de consulta de clima que pueda visualizar el
+pronóstico actual, próximos 5 días para la ciudad actual y de otras 5 ciudades seleccionables.
 
-### `yarn start`
+## Iniciar Proyecto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Primero, ejecute el servidor de desarrollo:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```bash
+npm install
+# o
+yarn install
+```
 
-### `yarn test`
+Luego debemos crear un archivo .env en la raiz del proyecto, con las propiedades que tiene el archivo .example.env que lo puse a modo de ejemplo
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Por ultimo, si ya contamos con el servidor iniciado, debemos iniciar nuestro proyecto frontend de manera local. Para ello, vamos a ingresar el siguiente comando en la terminal
 
-### `yarn build`
+```bash
+npm run dev
+# o
+yarn run dev
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Descripcion
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Este proyecto de frontend fue solicitado como challenge en una entrevista de trabajo a cargo de Jennifer Mallo.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+El proyecto esta desarrollado en ReackJS con typescript
 
-### `yarn eject`
+## Aclaración
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+1- El proyecto fue desarrollado en menos de 48hs.
+2- El diseño no es tenido como requerimiento.
+3- Existen algunos fix por mejorar, como es el caso de nuevo componente para la card del clima, funcionamiento del boton favorito al volver al home, manera responsive, entro otros pequeños fix.
+4- Cuando estamos en Home podemos agregar en favorito, luego abrimos el menu desplegable y podemos observar que se encuentra agregado. Al hacer click sobre uno de ellos, nos permitirá visualizar el clima de los proximos 5 dias.
+5- Proyecto Backend: https://github.com/bertini91/TelecomClimaBackend
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Desarrollador
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Nicolás Bertini Argañaras
+[https://www.nicolas-bertini.com.ar/]
+[https://www.linkedin.com/in/nicolas-bertini-argañaras/]

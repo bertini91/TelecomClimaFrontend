@@ -1,0 +1,80 @@
+.home {
+  //background-color: $purple_color;
+  font-weight: bolder;
+  background-image: url(https://www.telecom.com.ar/php/bin/services/imagen.php?c=imagen&id=109&t=prfl_sliders);
+  background-repeat: no-repeat;
+  // background-position: center center;
+  // background-attachment: fixed;
+  background-size: cover;
+  min-height: 100%;
+  background-size: 150% 100%;
+  padding-bottom: 30px;
+  // flex-direction:column;
+  .title {
+    color: $orange;
+    font-weight: bolder;
+    text-decoration: underline;
+    font-family: "Arial Rounded MT Bold";
+  }
+  .favoriteContent {
+    p {
+      color: $purple_light;
+    }
+  }
+  #iconLocation {
+    // background-image: url("../../../../public/static/location.svg");
+    background-repeat: no-repeat;
+    width: 30px;
+    height: 30px;
+    border: none;
+  }
+  .containerCard {
+    //width: max-content;
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    margin: 15px;
+    background-color: $purple_light;
+    border-radius: 15px;
+    padding: 10px;
+  }
+  .formSearch {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      color: $orange;
+      font-size: 13px;
+    }
+  }
+  .locationInput {
+    background-color: transparent;
+    border-radius: 12px;
+    //border-left: none;
+  }
+  .locationInput {
+    height: 40px;
+    width: 260px;
+    padding-left: 15px;
+  }
+  .locationInput:focus {
+    background-color: hsla(0, 0%, 100%, 0.377);
+  }
+
+  .locationInput::placeholder {
+    font-weight: bold;
+    color: #fff;
+  }
+  .buttonSearch {
+    background-color: $purple_color;
+    border-radius: 50%;
+    border-color: transparent;
+    align-items: center;
+    padding: 2px 4px;
+    margin: 0 7px;
+    cursor: pointer;
+  }
+  @media screen and (max-width: 800px) {
+    background-size: cover;
+  }
+}

@@ -1,0 +1,15 @@
+// #################    Librerias   #################
+@import "../../../node_modules/bootstrap";
+
+// #################    Variables   #################
+@import "variables";
+
+// #################    Estilo Globales   #################
+@import "./Common/globals";
+
+// #################    Paginas   #################
+@import "Pages/home";
+@import "Pages/detailWeather";
+
+// #################    Componentes   #################
+@import "Common/header";

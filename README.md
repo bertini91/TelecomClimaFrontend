@@ -33,7 +33,9 @@ yarn run dev
 
 Este proyecto de frontend fue solicitado como challenge en una entrevista de trabajo a cargo de Jennifer Mallo.
 
-El proyecto esta desarrollado en ReackJS con typescript
+El proyecto esta desarrollado en ReackJS con typescript.
+
+El proyecto se encuentra en netlify que es un servidor gratuito https://telecomclima.netlify.app/ cabe aclarar que al cargar el clima por defecto no será el de su localidad porque el servidor se encuentra en otro lugar. Para corroborar que funciona bien, debe correr el servidor de manera local con los pasos anteriores.
 
 ## Aclaración
 
